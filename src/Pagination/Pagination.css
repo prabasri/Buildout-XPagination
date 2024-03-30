@@ -1,0 +1,33 @@
+
+table {
+  /* margin: 20px auto;  we can use this also to align table to the center of the page */
+  text-align: left;
+  width: 95vw;
+  border-collapse: collapse;  /* we need to add this property to the table element to collapse the borders between table cells and allow the border-bottom on the table rows to display properly */
+  border-bottom: 3px solid green;
+}
+
+thead {
+  background-color: green;
+  color: white;
+}
+
+tr {
+  height: 50px;
+  border-bottom: 1px solid gray;
+  border-color: gray;
+}
+
+td, th {
+  padding-left: 10px; /* To make the data to move right */
+}
+
+button {
+  margin: 20px 10px;
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
